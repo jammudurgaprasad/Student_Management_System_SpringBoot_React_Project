@@ -1,0 +1,44 @@
+# === GLOBAL IGNORES ===
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# === NODE (React Frontend) ===
+**/node_modules/
+**/build/
+**/.env
+**/.env.local
+**/.env.*.local
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/.next/
+**/dist/
+
+# === JAVA / SPRING BOOT (Backend) ===
+/StudentManagementSystem/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# === IntelliJ IDEA ===
+**/.idea/
+**/*.iml
+**/out/
+
+# === Maven ===
+/StudentManagementSystem/.mvn/wrapper/maven-wrapper.jar
+
+# === Logs & Test Reports ===
+/StudentManagementSystem/surefire-reports/
+
+# === Backend Configs ===
+/StudentManagementSystem/src/main/resources/application.properties
+
+# === VS Code (if used) ===
+.vscode/
