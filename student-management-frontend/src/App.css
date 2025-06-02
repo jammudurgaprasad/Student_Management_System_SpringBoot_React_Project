@@ -1,0 +1,109 @@
+/* Reset some defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+}
+
+.app-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.app-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #0f172a;
+}
+
+.content-wrapper {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+/* Form styling */
+form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+form input {
+    margin-bottom: 1rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 0.75rem;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Student list styling */
+.student-list {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+    width: 100%;
+}
+
+.student-list h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.student-list ul {
+    list-style: none;
+}
+
+.student-list li {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9fafb;
+}
+
+.student-list button {
+    padding: 0.5rem 1rem;
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.student-list button:hover {
+    background-color: #dc2626;
+}

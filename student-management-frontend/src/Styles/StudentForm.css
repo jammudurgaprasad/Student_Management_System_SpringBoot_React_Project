@@ -1,0 +1,48 @@
+.student-form {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f8fafc;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.student-form h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #1e293b;
+    text-align: center;
+}
+
+.student-form input {
+    padding: 0.75rem 1rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: white;
+}
+
+.student-form input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+.student-form button {
+    padding: 0.75rem;
+    background-color: #2563eb;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.student-form button:hover {
+    background-color: #1d4ed8;
+}
